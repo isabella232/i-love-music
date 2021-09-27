@@ -39,7 +39,7 @@ function AllMeetupsPage () {
   }
     return (
         <div>
-            All Meetups
+            <h1>All Meetups</h1>
             <ul>
                 <MeetupList meetups = {loadedMeetups}></MeetupList>
             </ul>
